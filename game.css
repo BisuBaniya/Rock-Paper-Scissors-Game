@@ -1,0 +1,101 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: border-box;
+    margin: 0;
+}
+
+body{
+    /* background-color: white; */
+    background-color: rgb(213, 220, 220);
+}
+.heading{
+    text-align: center;
+    color: white;
+    background-color: rgb(23, 21, 61);
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.hero{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+    justify-content: space-evenly;
+}
+
+.box{
+    position: relative;
+    top: 3.5rem;
+    background-color: pink;
+    height: 8rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.box:hover{
+    border: 0.07rem solid rgb(23, 21, 61);
+    cursor: pointer;
+}
+
+.Rock{
+    background-image: url(Photos/Rock.jpg);
+    background-size: cover;
+    left: 4.5rem;
+}
+
+.Paper{
+    background-image: url(Photos/Paper.jpg);
+    background-size: cover;
+    top: 3rem;
+}
+
+.Scissor{
+    background-image: url(Photos/Scissors.jpg);
+    background-size: cover;
+    right: 4.5rem;
+}
+
+.Rock,.Scissor{
+    position: relative;
+    top: 10rem;
+}
+
+.score_board{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.user_score,.computer_score{
+    font-size: 1.7rem;
+    color: darkblue;
+    text-align: center;
+}
+
+.mssg{
+    margin: 2rem;
+    font-size: large;
+    text-align: center;
+}
+
+.mssg_div{
+    display: inline-block;
+    /* background-color: rgb(19, 143, 220); */
+    background-color: rgb(23, 21, 61);
+    padding: 0.5rem;
+    color: white;
+    width: 10rem;
+    height: 1.9rem;
+    border-radius: 0.5rem;
+}
+
+.act_mssg{
+    position: relative;
+    line-height: 1.9rem;
+}
